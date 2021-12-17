@@ -1,2 +1,2 @@
-# my-myntra
+# Myntra clone
  My cw project
