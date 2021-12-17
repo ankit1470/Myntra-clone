@@ -163,14 +163,13 @@ padding-left: 450px;
   margin-bottom: 10px;
 }
 .dropdown-menu ul li a {
-  /* margin-right: 20px; */
-  /* padding: 28px 17px 28px; */
+ 
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 0.3px;
   color: #282c3f;
-  /* border-bottom: none; */
+ 
   -webkit-transition: left 0.2s ease-out, width 0.2s ease-out;
   transition: left 0.2s ease-out, width 0.2s ease-out;
   font-weight: 600;
@@ -180,7 +179,7 @@ padding-left: 450px;
 
 .dropdown-menu ul li:hover a {
   padding-left: 8px;
-  /* padding-right: -8px; */
+ 
   color: #ff0095;
 }
 
@@ -189,14 +188,14 @@ padding-left: 450px;
 }
 
 .header div ul li a {
-  /* margin-right: 20px; */
+ 
   padding: 28px 17px 28px;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 0.3px;
   color: #282c3f;
-  /* border-bottom: none; */
+  
   -webkit-transition: left 0.2s ease-out, width 0.2s ease-out;
   transition: left 0.2s ease-out, width 0.2s ease-out;
   font-weight: 600;
@@ -204,7 +203,7 @@ padding-left: 450px;
 }
 .header div ul:hover {
   border-bottom: #282c3f;
-  /* background-color: red; */
+
 }
 * {
   box-sizing: border-box;
@@ -213,7 +212,7 @@ padding-left: 450px;
 }
 body {
   font-family: Verdana, sans-serif;
-  /* background-color: rgb(248, 248, 248); */
+ 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -251,10 +250,10 @@ body {
 }
 
 #searchpng {
-  /* height: 10px; */
-  /* vertical-align: middle; */
+  
+ 
   width: 15px;
-  /* border: 1px solid red; */
+
   margin: 15px;
   opacity: 0.5;
 }
@@ -276,12 +275,12 @@ select:focus {
   display: flex;
   height: 40px;
   margin-left: 30px;
-  /* border: 1px solid red; */
+  
 }
 .nav-last > div {
   display: flex;
   flex-direction: column;
-  /* border: 1px solid red; */
+  
   text-align: center;
   font-size: 12px;
   font-weight: 500;
@@ -292,11 +291,11 @@ select:focus {
 
 #svg {
   height: 15px;
-  /* border: 1px solid red; */
+  
   margin-left: 0px;
 }
 
-/* h4-title */
+
 .text-banner-title {
   text-transform: uppercase;
   color: #3e4152;
@@ -310,14 +309,14 @@ select:focus {
 img {
   display: block;
 }
-/* img link container */
+
 .img-link-container {
   margin: 3.5%;
   display: grid;
   grid-template-columns: repeat(5, 19.5%);
   gap: 1%;
   row-gap: 0;
-  /* height: auto; */
+ 
 }
 
 .img-link-container img {
@@ -337,17 +336,9 @@ img {
   width: 100%;
 }
 
-/* footer */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-/* body {
-        line-height: 1.5;
-        font-family: "Poppins", sans-serif;
-      }
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      } */
+
 .container {
   max-width: 75%;
   margin: auto;
@@ -362,20 +353,20 @@ ul {
   list-style: none;
 }
 .footer {
-  /* background-color: #24262b; */
+  
   padding: 70px 0;
 
   background-color: #eee;
-  /* border: 1px solid black; */
+  
 }
 .footer-col {
   width: 25%;
   padding: 0 15px;
-  /* border: 1px solid black; */
+
 }
 .footer-col h4 {
   font-size: 16px;
-  /* color: #ffffff; */
+  
   text-transform: capitalize;
   margin-bottom: 20px;
   font-weight: 600;
@@ -432,7 +423,7 @@ ul {
   margin-right: 15px;
 }
 
-/*responsive*/
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
