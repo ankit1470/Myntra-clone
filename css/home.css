@@ -56,13 +56,13 @@ margin-top: 10px;
   background-image: linear-gradient(
 90deg,#f9f9ff,#dee8ff);
 display: flex;
-padding-left: 500px;
+padding-left: 450px;
  text-align: center;
  font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
     font-weight: 500;
     color: #3e4152;
-    font-size: 18px;
+    font-size: 14px;
 
     opacity: .9;
     text-align: left;
@@ -78,7 +78,7 @@ padding-left: 500px;
     font-weight: 600;
     letter-spacing: .3px;
     text-align: center;
-    height: 30px;
+    height: 2px;
     line-height: 1.25em;
     color: #ff3f6c;
     background: 0 0;
