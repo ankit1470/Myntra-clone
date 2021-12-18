@@ -54,7 +54,6 @@ h4 {
     float: right;
     font-size: 14px;
     padding-top: 20px;
-    
 }
 .container4 {
     border: 1px solid #f2f2f5;
@@ -133,7 +132,6 @@ h4 {
 h5 {
     font-size: 12px;
     white-space: nowrap;
-
     text-overflow: ellipsis;
     max-width: 62%;
     display: inline;
@@ -169,7 +167,6 @@ select {
     margin-right: 20px;
 }
 .placeOrder {
-    
         position: absolute;
         right: 150px;  
         width: 330px;
@@ -177,7 +174,6 @@ select {
         font-family: Whitney,Helvetica,Arial,sans-serif!important;
         margin: 10px 10px;
         color: #94969f; 
-      
 }
 .grid-placeOrder {
     display: grid;
@@ -192,7 +188,6 @@ select {
                    "n n n"
                    "o o p"
                    "q q q";
-   
 }
 .child1 {
     grid-area: a;
@@ -210,13 +205,10 @@ select {
     margin-top: 10px;
     background-color: white;
     border-radius: 4px;
-    
     margin-left: 60px;
-
 }
 .child4 {
     grid-area: d;
-    
     width: 98%
 }
 .child5 {
@@ -244,11 +236,9 @@ select {
     grid-area: k;
     border: none;
     color: #ff3f6c;
-
     margin-top: 10px;
     background-color: white;
     margin-left: 30px;
-
 }
 .child12 {
     grid-area: l;

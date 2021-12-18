@@ -1,5 +1,4 @@
 #slider{
-  
   overflow: hidden;
 margin-top: 10px;
 }
@@ -10,13 +9,11 @@ margin-top: 10px;
   left: 0;
   animation: 8s slider infinite;
   animation-fill-mode: forwards;
-  
 }
 #slider img {
   margin-top: 50px;
   width: 20%;
   float: left;
-
 }
 @keyframes slider {
   0% {
@@ -51,8 +48,6 @@ margin-top: 10px;
   margin-top: 100px;
   width: 100%;
   height: 70px;
-  
- 
   background-image: linear-gradient(
 90deg,#f9f9ff,#dee8ff);
 display: flex;
@@ -63,11 +58,9 @@ padding-left: 450px;
     font-weight: 500;
     color: #3e4152;
     font-size: 14px;
-
     opacity: .9;
     text-align: left;
     line-height: 1.3;
-    
 }
 .invite {
   border-radius: 4px;
@@ -89,7 +82,6 @@ padding-left: 450px;
   height: 100px;
   align-items: center;
   background-color: white;
- 
 }
 .sticky {
   position: fixed;
@@ -103,12 +95,10 @@ padding-left: 450px;
   list-style-type: none;
   align-items: center;
 }
-
 .categories {
   margin-left: 50px;
   width: 100%;
 }
-
 .dropdown-content1:hover {
   border-bottom: 5px solid rgb(6, 47, 109);
   font-weight: bolder;
@@ -128,28 +118,22 @@ padding-left: 450px;
 .dropdown-content6:hover {
   border-bottom: 5px solid peachpuff;
 }
-
 .dropdown-menu {
-  
   display: none;
   position: fixed;
   background: white;
   top: 70px;
-
   z-index: 20;
   padding: 10px 30px 10px;
   border: 1px solid #eee;
   box-shadow: 0 8px 6px -6px #aaa;
 }
-
 .dropdown-menu1 {
   left: 10%;
 }
-
 .dropdown-menu2 {
   left: 14%;
 }
-
 .dropdown-menu3 {
   left: 19.5%;
 }
@@ -163,39 +147,31 @@ padding-left: 450px;
   margin-bottom: 10px;
 }
 .dropdown-menu ul li a {
- 
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 0.3px;
   color: #282c3f;
- 
   -webkit-transition: left 0.2s ease-out, width 0.2s ease-out;
   transition: left 0.2s ease-out, width 0.2s ease-out;
   font-weight: 600;
   text-transform: uppercase;
   transition: all 0.3s ease;
 }
-
 .dropdown-menu ul li:hover a {
   padding-left: 8px;
- 
   color: #ff0095;
 }
-
 .dropdown-menu ul {
   list-style: none;
 }
-
 .header div ul li a {
- 
   padding: 28px 17px 28px;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 0.3px;
   color: #282c3f;
-  
   -webkit-transition: left 0.2s ease-out, width 0.2s ease-out;
   transition: left 0.2s ease-out, width 0.2s ease-out;
   font-weight: 600;
@@ -203,7 +179,6 @@ padding-left: 450px;
 }
 .header div ul:hover {
   border-bottom: #282c3f;
-
 }
 * {
   box-sizing: border-box;
@@ -212,13 +187,9 @@ padding-left: 450px;
 }
 body {
   font-family: Verdana, sans-serif;
- 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-
-
-/* On smaller screens, decrease text size */
 @media only screen and (min-width:0px) and (max-width: 1000px) {
   .prev,
   .next,
@@ -227,8 +198,6 @@ body {
   }
   .refer{
  display: none;
- 
-
 }
 #slider img {
   margin-top: 100px;
@@ -238,7 +207,6 @@ body {
   width: 51px;
   margin-left: 60px;
 }
-
 .search-div {
   display: flex;
   width: 80%;
@@ -248,12 +216,8 @@ body {
   justify-content: flex-start;
   border-radius: 3px;
 }
-
 #searchpng {
-  
- 
   width: 15px;
-
   margin: 15px;
   opacity: 0.5;
 }
@@ -268,19 +232,16 @@ textarea:focus,
 select:focus {
   outline: none;
 }
-
 .nav-last {
   padding: 0 12px 0 17px;
   position: relative;
   display: flex;
   height: 40px;
   margin-left: 30px;
-  
 }
 .nav-last > div {
   display: flex;
   flex-direction: column;
-  
   text-align: center;
   font-size: 12px;
   font-weight: 500;
@@ -288,14 +249,10 @@ select:focus {
   padding-top: 5px;
   margin-left: 15px;
 }
-
 #svg {
   height: 15px;
-  
   margin-left: 0px;
 }
-
-
 .text-banner-title {
   text-transform: uppercase;
   color: #3e4152;
@@ -305,25 +262,20 @@ select:focus {
   max-height: 5em;
   font-weight: 600;
 }
-
 img {
   display: block;
 }
-
 .img-link-container {
   margin: 3.5%;
   display: grid;
   grid-template-columns: repeat(5, 19.5%);
   gap: 1%;
   row-gap: 0;
- 
 }
-
 .img-link-container img {
   width: 100%;
   height: 100%;
 }
-
 .img-link-container-2 {
   margin: 3.5%;
   display: grid;
@@ -331,11 +283,9 @@ img {
   gap: 2%;
   row-gap: 0px;
 }
-
 .img-link-container-2 img {
   width: 100%;
 }
-
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
@@ -406,24 +356,19 @@ ul {
   color: #ffffff;
   background-color: #000000;
 }
-
 .footer img {
   width: 60%;
   margin-bottom: 20px;
 }
-
 .footer-promise {
   display: flex;
   margin-bottom: 30px;
 }
-
 .footer-promise img {
   width: 25%;
   height: 25%;
   margin-right: 15px;
 }
-
-
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;

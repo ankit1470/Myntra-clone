@@ -1,7 +1,6 @@
 function appendPage() {
     let pro = JSON.parse(localStorage.getItem("clickedProduct"))
     let page = document.getElementById("center")
-
     page.innerHTML = null;
     page.innerHTML = ` <div class = "container4">
                     <h4>Available Offer</h4>
@@ -15,7 +14,6 @@ function appendPage() {
                     </p>
                     <button onclick="showMore()" id="myBtn">Show More</button>
                 </div>
-
                 <div class = "total">
                     <h3 style = "float: left; font-size: larger; color: black; font-weight: 700;">My Shopping Bag(1 item)</h3>
                     <h3 style = "float: right; font-size: larger; color: black; font-weight: 700;">Total: Rs. ${Math.ceil(pro.oldprice * (100 - pro.discount) / 100)}</h3>
@@ -23,7 +21,6 @@ function appendPage() {
                 <br><br><br>
                 <div class = "par">
                     <div id = "addImages">
-
                         <img id = "img2" src = "${pro.img}"/>
                         <div class = "child">
                             <p class = "p">${pro.brand_name}<br>
@@ -48,16 +45,13 @@ function appendPage() {
                             </select>
                             <h3>Discount: ${pro.discount}%</h3>
                             <h6 style = "color: cornflowerblue;">Delivery By 28 JUL 2021</h6>
-
                         </div>
                         <div>
                             <p id = "discount"><s>Rs. ${pro.oldprice}</s><br>Rs. ${Math.ceil(pro.oldprice * (100 - pro.discount) / 100)}</p>
                         </div>
                     </div>
                 </div>`
-
     let placeOrder = document.getElementById("placeOrder")
-
     placeOrder.innerHTML = `<div class = "grid-placeOrder">
                     <p class = "child1">COUPONS</p>
                     <p class = "child2"><b style = "color: black;">Apply Coupons</b></p>
@@ -78,12 +72,7 @@ function appendPage() {
                     <button class = "child17" onclick="showAddressPage()">PLACE ORDER</button>
                 </div>`
 }
-
-
-
 appendPage()
-
 function showAddressPage() {
     window.location.href = "address.html"
 }
-

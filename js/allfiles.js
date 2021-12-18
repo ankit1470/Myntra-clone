@@ -1,5 +1,3 @@
-
-
 products = [
     {
         brand_name: "Moda Rapido",
@@ -16,9 +14,7 @@ products = [
         price: 800,
         discount: 20,
         oldprice: 1000,
-
     },
-
     {
         brand_name: "Moda Rapido",
         img: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2378414/2018/2/8/11518071262125-Moda-Rapido-Men-Navy-Blue-Striped-Round-Neck-T-shirt-3641518071261992-1.jpg",
@@ -26,7 +22,6 @@ products = [
         price: 421,
         discount: 35,
         oldprice: 649,
-
     },
     {
         brand_name: "H&M",
@@ -35,7 +30,6 @@ products = [
         price: 350,
         discount: 50,
         oldprice: 700,
-
     },
     {
         brand_name: "Roadster",
@@ -44,7 +38,6 @@ products = [
         price: 419,
         discount: 50,
         oldprice: 839,
-
     },
     {
         brand_name: "HRX",
@@ -53,7 +46,6 @@ products = [
         price: 449,
         discount: 10,
         oldprice: 499,
-
     },
     {
         brand_name: "Nautica",
@@ -62,7 +54,6 @@ products = [
         price: 1399,
         discount: 30,
         oldprice: 1999,
-
     },
     {
         brand_name: "DILLINGER",
@@ -71,7 +62,6 @@ products = [
         price: 449,
         discount: 10,
         oldprice: 499,
-
     },
     {
         brand_name: "Roadster",
@@ -80,7 +70,6 @@ products = [
         price: 449,
         discount: 10,
         oldprice: 499,
-
     },
     {
         brand_name: "HRX",
@@ -89,7 +78,6 @@ products = [
         price: 449,
         discount: 10,
         oldprice: 499,
-
     },
     {
         brand_name: "FIDO DIDO",
@@ -106,7 +94,6 @@ products = [
         price: 1199,
         discount: 20,
         oldprice: 1499,
-
     },
     {
         brand_name: "Levis",
@@ -115,7 +102,6 @@ products = [
         price: 800,
         discount: 20,
         oldprice: 999,
-
     },
     {
         brand_name: "WROGN",
@@ -124,7 +110,6 @@ products = [
         price: 792,
         discount: 10,
         oldprice: 879,
-
     },
     {
         brand_name: "WROGN",
@@ -133,7 +118,6 @@ products = [
         price: 629,
         discount: 10,
         oldprice: 699,
-
     },
     {
         brand_name: "Tommy Hilfiger",
@@ -142,7 +126,6 @@ products = [
         price: 2399,
         discount: 20,
         oldprice: 2999,
-
     },
     {
         brand_name: "Tommy Hilfiger",
@@ -151,7 +134,6 @@ products = [
         price: 2999,
         discount: 25,
         oldprice: 3999,
-
     },
     {
         brand_name: "Tommy Hilfiger",
@@ -160,7 +142,6 @@ products = [
         price: 1599,
         discount: 50,
         oldprice: 3199,
-
     },
     {
         brand_name: "WROGN",
@@ -177,7 +158,6 @@ products = [
         price: 449,
         discount: 50,
         oldprice: 899,
-
     },
     {
         brand_name: "Puma",
@@ -186,7 +166,6 @@ products = [
         price: 1374,
         discount: 25,
         oldprice: 1899,
-
     },
     {
         brand_name: "Puma",
@@ -195,7 +174,6 @@ products = [
         price: 1299,
         discount: 25,
         oldprice: 1799,
-
     },
     {
         brand_name: "Puma",
@@ -204,7 +182,6 @@ products = [
         price: 899,
         discount: 25,
         oldprice: 1199,
-
     },
     {
         brand_name: "ADIDAS",
@@ -213,7 +190,6 @@ products = [
         price: 899,
         discount: 25,
         oldprice: 1199,
-
     },
     {
         brand_name: "ADIDAS",
@@ -222,7 +198,6 @@ products = [
         price: 899,
         discount: 25,
         oldprice: 1199,
-
     },
     {
         brand_name: "ADIDAS",
@@ -231,7 +206,6 @@ products = [
         price: 899,
         discount: 25,
         oldprice: 1199,
-
     },
     {
         brand_name: "ADIDAS",
@@ -240,7 +214,6 @@ products = [
         price: 899,
         discount: 25,
         oldprice: 1199,
-
     },
     {
         brand_name: "ADIDAS",
@@ -249,7 +222,6 @@ products = [
         price: 899,
         discount: 50,
         oldprice: 1799,
-
     },
     {
         brand_name: "ADIDAS",
@@ -258,7 +230,6 @@ products = [
         price: 1049,
         discount: 50,
         oldprice: 2099,
-
     },
     {
         brand_name: "ADIDAS",
@@ -267,7 +238,6 @@ products = [
         price: 1719,
         discount: 10,
         oldprice: 1899,
-
     },
     {
         brand_name: "Levis",
@@ -317,34 +287,23 @@ products = [
         discount: 0,
         oldprice: 2499,
     },
-
 ]
-
-
-
 if (JSON.parse(localStorage.getItem("products")) == null) {
     localStorage.setItem("products", JSON.stringify(products))
 }
-
 function showProducts(d) {
     let products = d;
-
     products.forEach(function (el) {
         appendProduct(el);
     })
 }
-
 function appendProduct(el) {
     let catalogue = document.getElementById('products-right');
-
     let div = document.createElement("div")
-
     // console.log(el);
-
     div.addEventListener("click", function () {
         localStorage.setItem("clickedProduct", JSON.stringify(el))
     })
-
     div.innerHTML = `<a class="each-product" href="moda.html"
               ><div>
                 <img
@@ -360,82 +319,61 @@ function appendProduct(el) {
               </div></a
             >`
     // console.log(div)
-
-
-
     catalogue.append(div)
 }
-
 showProducts(JSON.parse(localStorage.getItem("products")))
-
-
-
 function sort() {
     let menu = document.getElementById("type");
     menu.addEventListener("change", generateData);
-
     function generateData(event) {
         if (menu.value == '1') {
             let products = JSON.parse(localStorage.getItem("products"))
             let catalogue = document.getElementById('products-right');
             catalogue.innerHTML = null;
-
             products = products.sort(function (a, b) {
                 return b.price - a.price
             });
-
             showProducts(products);
         } else if (menu.value == '2') {
             let products = JSON.parse(localStorage.getItem("products"))
             let catalogue = document.getElementById('products-right');
             catalogue.innerHTML = null;
-
             products = products.sort(function (a, b) {
                 return a.price - b.price
             });
-
             showProducts(products);
         } else if (menu.value == '3') {
             let products = JSON.parse(localStorage.getItem("products"))
             let catalogue = document.getElementById('products-right');
             catalogue.innerHTML = null;
-
             products = products.sort(function (a, b) {
                 return b.discount - a.discount
             });
-
             showProducts(products);
         }
         else if (menu.value == '4') {
             let products = JSON.parse(localStorage.getItem("products"))
             let catalogue = document.getElementById('products-right');
             catalogue.innerHTML = null;
-
             showProducts(products);
         }
     }
 }
 sort();
-
 function filter(x) {
     let products = JSON.parse(localStorage.getItem("products"))
-
     products = products.filter(function (el) {
         return el.brand_name == x;
     })
-
     let catalogue = document.getElementById('products-right');
     catalogue.innerHTML = null;
     showProducts(products);
 }
-
 function priceFilter(x, y) {
     let products = JSON.parse(localStorage.getItem("products"))
-
     products = products.filter(function (el) {
         return el.price < x && el.price > y;
     })
-
     let catalogue = document.getElementById('products-right');
     catalogue.innerHTML = null;
     showProducts(products);

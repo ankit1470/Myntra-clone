@@ -3,29 +3,22 @@
   height: 80px;
   align-items: center;
   background-color: white;
-  
 }
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 10;
-
-
   box-shadow: 0 8px 6px -6px #eee;
-
 }
 .header div ul {
   display: flex;
   list-style-type: none;
   align-items: center;
 }
-
 .categories {
   margin-left: 50px;
-  
   width: 33%;
-  
 }
 .dropdown-content1:hover {
   border-bottom: 5px solid rgb(6, 47, 109);
@@ -42,28 +35,22 @@
 .dropdown-content5:hover {
   border-bottom: 5px solid peachpuff;
 }
-
 .dropdown-menu {
-  
   display: none;
   position: fixed;
   background: white;
   top: 70px;
-
   z-index: 20;
   padding: 10px 30px 10px;
   border: 1px solid #eee;
   box-shadow: 0 8px 6px -6px #aaa;
 }
-
 .dropdown-menu1 {
   left: 10%;
 }
-
 .dropdown-menu2 {
   left: 14%;
 }
-
 .dropdown-menu3 {
   left: 19.5%;
 }
@@ -77,39 +64,31 @@
   margin-bottom: 10px;
 }
 .dropdown-menu ul li a {
- 
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 0.3px;
   color: #282c3f;
-  
   -webkit-transition: left 0.2s ease-out, width 0.2s ease-out;
   transition: left 0.2s ease-out, width 0.2s ease-out;
   font-weight: 600;
   text-transform: uppercase;
   transition: all 0.3s ease;
 }
-
 .dropdown-menu ul li:hover a {
   padding-left: 8px;
- 
   color: #ff0095;
 }
-
 .dropdown-menu ul {
   list-style: none;
 }
-
 .header div ul li a {
- 
   padding: 28px 17px 28px;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 0.3px;
   color: #282c3f;
- 
   -webkit-transition: left 0.2s ease-out, width 0.2s ease-out;
   transition: left 0.2s ease-out, width 0.2s ease-out;
   font-weight: 600;
@@ -117,7 +96,6 @@
 }
 .header div ul:hover {
   border-bottom: #282c3f;
- 
 }
 * {
   box-sizing: border-box;
@@ -126,23 +104,17 @@
 }
 body {
   font-family: Verdana, sans-serif;
- 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-
 .mySlides {
   display: none;
 }
-
-/* Slideshow container */
 .slideshow-container {
   max-width: 100%;
   position: relative;
   margin: 130px auto 0;
 }
-
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -158,20 +130,14 @@ body {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 10px;
@@ -182,20 +148,16 @@ body {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .active,
 .dot:hover {
   background-color: #717171;
 }
-
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
   from {
     opacity: 0.4;
@@ -204,7 +166,6 @@ body {
     opacity: 1;
   }
 }
-
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -213,8 +174,6 @@ body {
     opacity: 1;
   }
 }
-
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev,
   .next,
@@ -226,7 +185,6 @@ body {
   width: 51px;
   margin-left: 60px;
 }
-
 .search-div {
   display: flex;
   width: 39%;
@@ -234,15 +192,10 @@ body {
   height: 40px;
   align-items: center;
   justify-content: flex-start;
-  /* margin-left: 7%; */
   border-radius: 3px;
 }
-
 #searchpng {
-  /* height: 10px; */
-  /* vertical-align: middle; */
   width: 15px;
-  /* border: 1px solid red; */
   margin: 15px;
   opacity: 0.5;
 }
@@ -252,25 +205,21 @@ body {
   margin-left: 2%;
   background-color: #eee;
 }
-
 input:focus,
 textarea:focus,
 select:focus {
   outline: none;
 }
-
 .nav-last {
   padding: 0 12px 0 17px;
   position: relative;
   display: flex;
   height: 40px;
   margin-left: 30px;
-  /* border: 1px solid red; */
 }
 .nav-last > div {
   display: flex;
   flex-direction: column;
-  /* border: 1px solid red; */
   text-align: center;
   font-size: 12px;
   font-weight: 500;
@@ -278,14 +227,10 @@ select:focus {
   padding-top: 5px;
   margin-left: 15px;
 }
-
 #svg {
   height: 15px;
-  /* border: 1px solid red; */
   margin-left: 0px;
 }
-
-/* h4-title */
 .text-banner-title {
   text-transform: uppercase;
   color: #3e4152;
@@ -295,8 +240,6 @@ select:focus {
   max-height: 5em;
   font-weight: 600;
 }
-
-/* img link container */
 .img-link-container {
   margin: 3.5%;
   display: grid;
@@ -305,16 +248,13 @@ select:focus {
   row-gap: 0;
   height: auto;
 }
-
 img {
   display: block;
 }
-
 .img-link-container img {
   width: 100%;
   height: 100%;
 }
-
 .img-link-container-2 {
   margin: 3.5%;
   display: grid;
@@ -322,22 +262,10 @@ img {
   gap: 2%;
   row-gap: 0px;
 }
-
 .img-link-container-2 img {
   width: 100%;
 }
-
-/* footer */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-/* body {
-        line-height: 1.5;
-        font-family: "Poppins", sans-serif;
-      }
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      } */
 
 .container {
   max-width: 75%;
@@ -353,17 +281,20 @@ ul {
   list-style: none;
 }
 .footer {
+  
   padding: 70px 0;
+
   background-color: #eee;
+  
 }
 .footer-col {
   width: 25%;
   padding: 0 15px;
-  /* border: 1px solid black; */
+
 }
 .footer-col h4 {
   font-size: 16px;
-  /* color: #ffffff; */
+  
   text-transform: capitalize;
   margin-bottom: 20px;
   font-weight: 600;
@@ -403,24 +334,19 @@ ul {
   color: #ffffff;
   background-color: #000000;
 }
-
 .footer img {
   width: 60%;
   margin-bottom: 20px;
 }
-
 .footer-promise {
   display: flex;
   margin-bottom: 30px;
 }
-
 .footer-promise img {
   width: 25%;
   height: 25%;
   margin-right: 15px;
 }
-
-/*responsive*/
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
