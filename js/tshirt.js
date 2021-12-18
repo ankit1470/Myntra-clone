@@ -1,6 +1,5 @@
 function colorFixed() {
   var circles = document.getElementsByClassName("circles");
-
   for (let i = 0; i < circles.length; i++) {
     circles[i].addEventListener("click", function () {
       for (let j = 0; j < circles.length; j++) {
@@ -11,7 +10,6 @@ function colorFixed() {
   }
 }
 colorFixed();
-
 var obj = {
   brand: "Moda Rapido",
   name: "Men Maroon Printed Round Neck T-shirt",
@@ -21,17 +19,12 @@ var obj = {
   discountPercentage: 35,
 };
 function addtoCart() {
-  
   window.location.href = "login.html";
 }
-
-
 function appendPage() {
   let div = document.getElementById("content");
   let pro = JSON.parse(localStorage.getItem("clickedProduct"))
-
   div.innerHTML = null;
-
   div.innerHTML = `<div class="leftcontent">
         <div class="img-grid-container common-clearfix">
           <img
@@ -95,7 +88,6 @@ function appendPage() {
             />
           </h4>
         </div>
-
         <div class="newdiv">
           <input class="box" type="text" placeholder="Enter a pin code" />
         </div>
@@ -213,5 +205,4 @@ function appendPage() {
         <div class="hr"></div>
       </div>`
 }
-
 appendPage()
