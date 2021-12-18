@@ -126,6 +126,7 @@ function appendPage() {
         <div class="newdiv"><h4 class="font">PRODUCT DETAILS</h4></div>
         <div>
           <h4 class="bigtext">
+          
             Maroon and black printed T-shirt, has a round neck, long sleeves
           </h4>
         </div>
